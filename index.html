@@ -16,17 +16,14 @@
     <div id="div">
         <h2>Choose a number of buttons bigger than 0 and guess the winner button:</h2><br>
         <input type="number" id="userInput" />
-        <button type="button" class="btn btn-primary" id="Reset" onclick="restartButtons(id)">Reset</button>
+        <button type="button" class="btn btn-success" id="Pressed" onclick="generateButtons();">Press</button>
+        <button type="button" class="btn btn-success" id="Reset" onclick="restartButtons(id)">Reset</button>
     </div> 
-
-    <div>
-        <p id="winOrLose"></p>
-    </div>
-
-    <div id="Press"> 
-    <button type="button" class="btn btn-primary" id="Pressed" onclick="generateButtons();">Press</button>
-    </div>
         
+    <div>
+      <p id="winOrLose"></p>
+  </div>
+
     <link rel="stylesheet" href="button.css">
     <script src="script.js"></script>
   </body>
