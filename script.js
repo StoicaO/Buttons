@@ -16,7 +16,7 @@ function generateButtons(){
         document.body.appendChild(button); 
         
     }
-    document.getElementById("Press").style.display = 'none';  
+    document.getElementById("Pressed").style.display = 'none';  
 }
 
 function restartButtons(id){
